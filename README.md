@@ -2,13 +2,13 @@
 
 Download the latest APK from **[GitHub Releases](https://github.com/GianCarlozxc/EchoRelease/releases/latest)**.
 
-Current version: **1.8.0** · Android 8.0 or later · Package `com.dev.music`.
+Current version: **1.8.1** · Android 8.0 or later · Package `com.dev.music`.
 
 Echo includes a dark music player, search, albums and singles, playlists, related playlist recommendations, lyrics, offline downloads, gallery photos, and a fullscreen player opened from the lock-screen media card.
 
 ## Install
 
-1. Download `Echo-1.8.0.apk` from the release assets.
+1. Download `Echo-1.8.1.apk` from the release assets.
 2. Open the APK on your Android phone and allow installation from your browser or file manager when prompted.
 3. If Echo is already installed with the same signing key, install the update over it to preserve your library.
 
@@ -16,13 +16,13 @@ Echo includes a dark music player, search, albums and singles, playlists, relate
 
 ## Development build and account connection
 
-This APK is the current **debug-signed development build**. Its account service is configured as `http://127.0.0.1:8787`, which requires the existing PC account server and an adb reverse connection. An Internet-hosted account service is not configured in this APK; downloading it alone does not provide public sign-in access. Music lookup and streaming require an Internet connection; downloaded audio can play offline.
+Echo 1.8.1 connects to the public [Echo account service](https://echo-accounts-giancarlozxc.easyperch3.chatgpt.site) over HTTPS. Anyone can sign up with a username, password, and country; no PC or adb connection is required. Existing accounts and active sessions were migrated, preserving account IDs and local libraries on update. Account identity and country work across phones; playlists, likes, downloads, and gallery photos stay on each phone. Music lookup and streaming require Internet; completed audio downloads can play offline. This APK retains the existing debug signing key for compatible development updates.
 
 ## Source
 
 The source project is maintained in [GianCarlozxc/Echo](https://github.com/GianCarlozxc/Echo). Repository access depends on the owner's permissions. This repository contains release information; APK binaries are attached to releases.
 
-No app tests were run for this publication. The APK was built successfully and previously installed on the development phone; the new in-app updater is awaiting manual testing.
+No app tests were run for this publication. The APK built successfully and was installed on the development phone. The public account service and durable database passed a deployment health check. Login, sign-up, and updates await manual testing.
 
 ## Update inside Echo
 
