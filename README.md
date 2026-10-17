@@ -2,13 +2,13 @@
 
 Download the latest APK from **[GitHub Releases](https://github.com/GianCarlozxc/EchoRelease/releases/latest)**.
 
-Current version: **1.8.6** · Android 8.0 or later · Package `com.dev.music`.
+Current version: **1.8.7** · Android 8.0 or later · Package `com.dev.music`.
 
 Echo includes a dark music player, search, albums and singles, playlists, related playlist recommendations, lyrics, offline downloads, gallery photos, and a fullscreen player opened from the lock-screen media card.
 
 ## Install
 
-1. Download `Echo-1.8.6.apk` from the release assets.
+1. Download `Echo-1.8.7.apk` from the release assets.
 2. Open the APK on your Android phone and allow installation from your browser or file manager when prompted.
 3. If Echo is already installed with the same signing key, install the update over it to preserve your library.
 
@@ -22,7 +22,7 @@ Echo 1.8.1 connects to the public [Echo account service](https://echo-accounts-g
 
 The source project is maintained in [GianCarlozxc/Echo](https://github.com/GianCarlozxc/Echo). Repository access depends on the owner's permissions. This repository contains release information; APK binaries are attached to releases.
 
-No app tests were run for this publication. The APK built successfully. No tests were run and version 1.8.6 was not installed on the phone; install it manually. This release adds a description of Echo as a free music player to About Echo in Settings. Echo also attempts to reopen after a successful in-app update, with an update notification as fallback when allowed. Android may prevent automatic reopening. Play Protect warnings are separate and are not bypassed or resolved by this feature.
+No app tests were run for this publication. The APK built successfully. No tests were run and version 1.8.7 was not installed on the phone; install it manually. This release mixes current country-chart songs with 2024, 2025, and 2026 hit searches. Pull-to-refresh rotates the searches and prioritizes songs outside the previous batch using saved history. Year labels describe discovery queries, not verified release dates or historical rankings. Echo also attempts to reopen after a successful in-app update, with an update notification as fallback when allowed. Android may prevent automatic reopening. Play Protect warnings are separate and are not bypassed or resolved by this feature.
 
 ## Update inside Echo
 
