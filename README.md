@@ -18,11 +18,7 @@ Echo includes a dark music player, search, albums and singles, playlists, relate
 
 Echo 1.8.1 connects to the public [Echo account service](https://echo-accounts-giancarlozxc.easyperch3.chatgpt.site) over HTTPS. Anyone can sign up with a username, password, and country; no PC or adb connection is required. Existing accounts and active sessions were migrated, preserving account IDs and local libraries on update. Account identity and country work across phones; playlists, likes, downloads, and gallery photos stay on each phone. Music lookup and streaming require Internet; completed audio downloads can play offline. This APK retains the existing debug signing key for compatible development updates.
 
-## Source
 
-The source project is maintained in [GianCarlozxc/Echo](https://github.com/GianCarlozxc/Echo). Repository access depends on the owner's permissions. This repository contains release information; APK binaries are attached to releases.
-
-No app tests were run for this publication. The APK built successfully. No tests were run and version 1.8.7 was not installed on the phone; install it manually. This release mixes current country-chart songs with 2024, 2025, and 2026 hit searches. Pull-to-refresh rotates the searches and prioritizes songs outside the previous batch using saved history. Year labels describe discovery queries, not verified release dates or historical rankings. Echo also attempts to reopen after a successful in-app update, with an update notification as fallback when allowed. Android may prevent automatic reopening. Play Protect warnings are separate and are not bypassed or resolved by this feature.
 
 ## Update inside Echo
 
