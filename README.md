@@ -2,13 +2,13 @@
 
 Download the latest APK from **[GitHub Releases](https://github.com/GianCarlozxc/EchoRelease/releases/latest)**.
 
-Current version: **1.8.10** · Android 8.0 or later · Package `com.dev.music`.
+Current version: **1.8.11** · Android 8.0 or later · Package `com.dev.music`.
 
 Echo includes a dark music player, search, albums and singles, playlists, related playlist recommendations, lyrics, offline downloads, gallery photos, and a fullscreen player opened from the lock-screen media card.
 
 ## Install
 
-1. Download `Echo-1.8.10.apk` from the release assets.
+1. Download `Echo-1.8.11.apk` from the release assets.
 2. Open the APK on your Android phone and allow installation from your browser or file manager when prompted.
 3. If Echo is already installed with the same signing key, install the update over it to preserve your library.
 
@@ -28,3 +28,5 @@ After installing version 1.8.0, open **Profile → Settings → App updates** to
 Version 1.8.9 adds an in-app update prompt with Update and Later choices while Echo is open. Update starts downloading and opens App updates; Later postpones the same version for 24 hours. Install 1.8.9 once to receive prompts for subsequent releases.
 
 Version 1.8.10 adds a + button beside Your playlists in Library to create an empty playlist.
+
+Version 1.8.11 checks for updates immediately when Echo opens or returns, then every 30 seconds while open. The prompt appears directly after detection. Automatic checks use update.json; network speed and publication caching can affect detection. Later still postpones that version for 24 hours.
