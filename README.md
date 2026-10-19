@@ -2,13 +2,13 @@
 
 Download the latest APK from **[GitHub Releases](https://github.com/GianCarlozxc/EchoRelease/releases/latest)**.
 
-Current version: **1.8.12** · Android 8.0 or later · Package `com.dev.music`.
+Current version: **1.8.13** · Android 8.0 or later · Package `com.dev.music`.
 
 Echo includes a dark music player, search, albums and singles, playlists, related playlist recommendations, lyrics, offline downloads, gallery photos, and a fullscreen player opened from the lock-screen media card.
 
 ## Install
 
-1. Download `Echo-1.8.12.apk` from the release assets.
+1. Download `Echo-1.8.13.apk` from the release assets.
 2. Open the APK on your Android phone and allow installation from your browser or file manager when prompted.
 3. If Echo is already installed with the same signing key, install the update over it to preserve your library.
 
@@ -32,3 +32,5 @@ Version 1.8.10 adds a + button beside Your playlists in Library to create an emp
 Version 1.8.11 checks for updates immediately when Echo opens or returns, then every 30 seconds while open. The prompt appears directly after detection. Automatic checks use update.json; network speed and publication caching can affect detection. Later still postpones that version for 24 hours.
 
 Version 1.8.12 excludes songs in your saved recommendation history when refreshing Trending, mood picks, and playlist recommendations. If no new songs are found, it shows fewer songs or an empty state rather than recycling old songs.
+
+Version 1.8.13 filters labeled remixes, mashups, slowed/sped-up versions, and similar edits out of Trending using title and artist metadata.
