@@ -1,9 +1,9 @@
 {
-    "version":  "1.8.12",
-    "title":  "Echo 1.8.12",
-    "notes":  "Stop repeating songs when refreshing recommendations.\n\n- Trending, mood picks, and playlist recommendations exclude songs in the saved account-wide recommendation history, including across app restarts.\n- Recognizable alternate uploads with matching normalized artist/title are filtered too.\n- Loads more search pages and query variations when needed, keeping the 2024, 2025, and 2026 mix and country preference.\n- Removes the fallback that recycled old songs. If results run out, Echo shows fewer songs or a no-new-songs message instead.\n- Migrates available existing history and removes the 1,000-track eviction for future recommendations. Network failures retain the current screen with a retry message.\n\nAndroid 8.0+; package com.dev.music; version code 49; same development signing key. APK checksum is included in SHA256SUMS.txt and GitHub\u0027s asset digest.\n\nBuild succeeded. No tests were run and this release was not installed on the phone. Update manually through App updates or download the APK below.",
-    "url":  "https://github.com/GianCarlozxc/EchoRelease/releases/download/v1.8.12/Echo-1.8.12.apk",
-    "sha256":  "71eec141dffb7ec4e9e3b8a54c8e6e4a950be5de5dc0e30a3df0d9b5237fa736",
-    "assetId":  656606293,
-    "size":  6847489
+    "version":  "1.8.13",
+    "title":  "Echo 1.8.13",
+    "notes":  "Filter remixes and edited versions out of Home Trending.\n\n- Excludes tracks labeled as remixes, mashups, reworks, bootlegs, slowed/sped-up versions, nightcore, reverb, bass boosts, 8D audio, and DJ/club/radio edits.\n- Checks title and artist metadata for both the year-based searches and current country chart.\n- Applies the filter before selecting search results, allowing further pages to supply eligible songs. Keeps saved no-repeat recommendation history.\n\nFiltering uses catalog metadata; an edit without a recognizable label cannot be reliably identified.\n\nAndroid 8.0+; package com.dev.music; version code 50; same development signing key. APK checksum is included in SHA256SUMS.txt and GitHub\u0027s asset digest.\n\nBuild succeeded. No tests were run and this release was not installed on the phone. Update manually through App updates or download the APK below.",
+    "url":  "https://github.com/GianCarlozxc/EchoRelease/releases/download/v1.8.13/Echo-1.8.13.apk",
+    "sha256":  "c05f4700f5f38ad8d0f10b11825fdd06733a5a34d9e22bc6e0675a888ffafa2d",
+    "assetId":  656614071,
+    "size":  6848281
 }
