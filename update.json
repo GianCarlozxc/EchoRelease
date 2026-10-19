@@ -1,9 +1,9 @@
 {
-    "version":  "1.8.11",
-    "title":  "Echo 1.8.11",
-    "notes":  "Show the update prompt immediately when a new version is detected.\n\n- Removes the 15-minute wait: checks when Echo opens or returns to the foreground, then every 30 seconds while it remains open.\n- A completed check triggers the popup directly, without waiting for the UI polling timer.\n- Automatic checks use a lightweight public release manifest. Manual checks still use the GitHub releases API. Network speed and publication caching can affect detection.\n- Update starts the download; Later still postpones that version for 24 hours. Playback continues normally.\n\nInstall 1.8.11 once using App updates or the APK to enable this behavior for subsequent releases.\n\nAndroid 8.0+; package com.dev.music; version code 48; same development signing key. APK checksum is included in SHA256SUMS.txt and GitHub\u0027s asset digest.\n\nBuild succeeded. No tests were run and this release was not installed on the phone. Update manually.",
-    "url":  "https://github.com/GianCarlozxc/EchoRelease/releases/download/v1.8.11/Echo-1.8.11.apk",
-    "sha256":  "30256ee5801ad35c51c70748c7ad740c7b378517746f06ef13c4fbdae0524626",
-    "assetId":  654742722,
-    "size":  7001081
+    "version":  "1.8.12",
+    "title":  "Echo 1.8.12",
+    "notes":  "Stop repeating songs when refreshing recommendations.\n\n- Trending, mood picks, and playlist recommendations exclude songs in the saved account-wide recommendation history, including across app restarts.\n- Recognizable alternate uploads with matching normalized artist/title are filtered too.\n- Loads more search pages and query variations when needed, keeping the 2024, 2025, and 2026 mix and country preference.\n- Removes the fallback that recycled old songs. If results run out, Echo shows fewer songs or a no-new-songs message instead.\n- Migrates available existing history and removes the 1,000-track eviction for future recommendations. Network failures retain the current screen with a retry message.\n\nAndroid 8.0+; package com.dev.music; version code 49; same development signing key. APK checksum is included in SHA256SUMS.txt and GitHub\u0027s asset digest.\n\nBuild succeeded. No tests were run and this release was not installed on the phone. Update manually through App updates or download the APK below.",
+    "url":  "https://github.com/GianCarlozxc/EchoRelease/releases/download/v1.8.12/Echo-1.8.12.apk",
+    "sha256":  "71eec141dffb7ec4e9e3b8a54c8e6e4a950be5de5dc0e30a3df0d9b5237fa736",
+    "assetId":  656606293,
+    "size":  6847489
 }
